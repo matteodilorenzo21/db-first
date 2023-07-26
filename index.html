@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>DB AUTO</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="my-4">DB AUTO</h2>
+    <table class="table border-dark">
+      <thead>
+        <tr>
+          <th>COLONNA</th>
+          <th>TIPO DATO</th>
+          <th>ATTRIBUTI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>BIGINT</td>
+          <td>PRIMARY KEY AUTO_INCREMENT</td>
+        </tr>
+        <tr>
+          <td>Targa</td>
+          <td>VARCHAR(7)</td>
+          <td>NOT NULL UNIQUE</td>
+        </tr>
+        <tr>
+          <td>Marca</td>
+          <td>VARCHAR(30)</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>Modello</td>
+          <td>VARCHAR(30)</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>Immatricolazione</td>
+          <td>YEAR</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>Prezzo</td>
+          <td>DECIMAL(9, 2)</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>Chilometraggio</td>
+          <td>INT</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>Colore</td>
+          <td>VARCHAR(20)</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>Descrizione</td>
+          <td>TEXT</td>
+          <td>NULL</td>
+        </tr>
+        <tr>
+          <td>Disponibilità</td>
+          <td>BOOLEAN</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>TipoCambio</td>
+          <td>VARCHAR(20)</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>Cilindrata</td>
+          <td>INT</td>
+          <td>NOT NULL</td>
+        </tr>
+        <tr>
+          <td>Alimentazione</td>
+          <td>VARCHAR(20)</td>
+          <td>NOT NULL</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>
